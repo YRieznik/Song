@@ -1,0 +1,48 @@
+#header-container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: white;
+  align-items: center;
+}
+
+.logo {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 25%;
+}
+.nav-menu {
+  margin-right: 25%;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 3px;
+  ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+  a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0 20px 0;
+    display: inline-block;
+    &:hover {
+      background:white;
+      border-color:#333;
+      color:gray;
+    }
+  }
+}

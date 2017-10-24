@@ -1,0 +1,63 @@
+#header-container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  color: white;
+  align-items: center; }
+
+.logo {
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-left: 25%; }
+
+.nav-menu {
+  margin-right: 25%;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 3px; }
+  .nav-menu ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; }
+  .nav-menu li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px; }
+  .nav-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    padding: 20px 0 20px 0;
+    display: inline-block; }
+    .nav-menu a:hover {
+      background: white;
+      border-color: #333;
+      color: gray; }
+
+main {
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-position: center; }
+
+.cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1; }
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #384997;
+  font-size: 100%; }
