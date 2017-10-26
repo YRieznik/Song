@@ -1,5 +1,5 @@
 #header-container {
-  position: fixed;
+  position: relative;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -24,9 +24,9 @@
   letter-spacing: 3px;
   ul {
     list-style: none;
-    display: flex;
     margin: 0;
     padding: 0;
+    text-align: center;
   }
   li {
     display: inline-block;
