@@ -1,11 +1,14 @@
 #header-container {
-  position: relative;
   width: 100%;
+  top: 0;
+  position: fixed;
+  z-index: 11000000;
   display: flex;
   justify-content: space-between;
   background: white;
   color: white;
   align-items: center;
+  overflow: hidden;
 }
 
 .logo {
@@ -13,10 +16,8 @@
   color: black;
   text-transform: uppercase;
   padding: 10px;
-  margin-left: 25%;
 }
 .nav-menu {
-  margin-right: 25%;
   font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
   font-size: 12px;
   font-weight: 700;
