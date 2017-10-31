@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5911e8f6-b7e0-4374-936d-4e1fc8da3d20" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/main.css" afterPath="$PROJECT_DIR$/app/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_bgimg.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_bgimg.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_filter.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_filter.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/layout/_header.scss" afterPath="$PROJECT_DIR$/app/sass/layout/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/sass/main.scss" afterPath="$PROJECT_DIR$/app/sass/main.scss" />
-    </list>
+    <list default="true" id="5911e8f6-b7e0-4374-936d-4e1fc8da3d20" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -335,15 +327,15 @@
       <workItem from="1509022884366" duration="6050000" />
       <workItem from="1509085897367" duration="9653000" />
       <workItem from="1509347020611" duration="14895000" />
-      <workItem from="1509436178748" duration="17357000" />
+      <workItem from="1509436178748" duration="17391000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66288000" />
+    <option name="totallyTimeSpent" value="66322000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="86" y="189" width="1653" height="867" extended-state="0" />
+    <frame x="86" y="189" width="1653" height="867" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24984728" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
