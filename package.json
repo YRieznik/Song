@@ -6,11 +6,22 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "yuriy reznik",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YRieznik/Song.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YRieznik/Song/issues"
+  },
+  "homepage": "https://github.com/YRieznik/Song#readme",
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "isotope-layout": "^3.0.4"
   }
 }

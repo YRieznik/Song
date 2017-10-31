@@ -1,6 +1,6 @@
 var gulp = require('gulp'), // Подключаем Gulp
     sass = require('gulp-sass'); //Подключаем Sass пакет
-browserSync = require('browser-sync'); // Подключаем Browser Sync
+    browserSync = require('browser-sync'); // Подключаем Browser Sync
 
 gulp.task('sass', function(){ // Создаем таск "sass"
     return gulp.src('app/sass/main.scss') // Берем источник
