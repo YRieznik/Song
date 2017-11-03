@@ -1,4 +1,55 @@
 #img-container {
+  display: flex;
+  background-image:  url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  justify-content: center;
+  
+}
+.img-container_block {
+  background-color: red;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+#img-container {
   height: 100%;
   width: 100%;
   margin: 0;
@@ -60,4 +111,4 @@
 }
 .profile-info {
   padding-top: 30px;
-}
+}*/
