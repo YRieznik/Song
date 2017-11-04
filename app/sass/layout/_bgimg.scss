@@ -13,13 +13,48 @@
   margin: 0 auto;
   text-align: center;
   margin-top: 70px;
-
-
+  margin-bottom: 70px;
 }
 
-
-
-
+.heading-line {
+  border-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(229, 174, 71);
+  width: 125px;
+  margin: 0 auto;
+  display: block;
+}
+.profile-icon {
+  color:#e5ae47;
+  background:#ffffff;
+  border-style:solid;
+  border-color:#e0e0e0;
+  border-width:1px;
+  height:130px;
+  width: 130px;
+  line-height:80px;
+  border-radius:500px;
+  font-size:32px;
+  display:inline-block;
+}
+.profile-name {
+  font-size: 115px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.profile-info {
+  color: white;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+// media for font h1
 
 
 
