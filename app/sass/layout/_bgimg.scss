@@ -4,16 +4,17 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 700px;
   justify-content: center;
   
 }
 .img-container_block {
-  background-color: red;
+  background-color: rgba(36, 36, 36, 0.28);
   margin: 0 auto;
-  text-align: center;
   margin-top: 70px;
   margin-bottom: 70px;
+  border-radius: 0.3rem;
+
 }
 
 .heading-line {
@@ -23,6 +24,7 @@
   width: 125px;
   margin: 0 auto;
   display: block;
+
 }
 .profile-icon {
   color:#e5ae47;
@@ -36,6 +38,8 @@
   border-radius:500px;
   font-size:32px;
   display:inline-block;
+  margin-top: 50px;
+
 }
 .profile-name {
   font-size: 115px;
@@ -53,11 +57,27 @@
   font-weight: 400;
   margin-left: 25px;
   margin-right: 25px;
+  margin-top: 70px;
 }
 // media for font h1
+.img-container_wrapper {
+  width: auto;
+  height: auto;
+  text-align: center;
+  max-width: 960px;
+  margin: 20px 75px 20px 75px;
+}
 
-
-
+@media screen and (max-width:1115px) {
+  .profile-name {
+    font-size: 90px;
+  }
+}
+@media screen and (max-width: 810px) {
+  .profile-name {
+    font-size: 50px;
+  }
+}
 
 
 
