@@ -1,6 +1,6 @@
 #header-container {
   width: 100%;
-  position: fixed;
+  position: relative;
   display: flex;
   justify-content: space-between;
   background: white;
@@ -76,14 +76,68 @@ main {
       -ms-filter: "alpha(opacity=100)"; }
 
 #img-container {
+  display: flex;
+  background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
-  height: auto;
-  width: 100%; }
-  #img-container img {
-    width: 100%;
-    height: 100%; }
+  width: 100%;
+  height: 700px;
+  justify-content: center; }
+  @media screen and (max-width: 1115px) {
+    #img-container .profile-name {
+      font-size: 90px; } }
+  @media screen and (max-width: 810px) {
+    #img-container .profile-name {
+      font-size: 50px; } }
+  #img-container .img-container_block {
+    background-color: rgba(36, 36, 36, 0.28);
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border-radius: 0.3rem; }
+    #img-container .img-container_block .img-container_wrapper {
+      width: auto;
+      height: auto;
+      text-align: center;
+      max-width: 960px;
+      margin: 20px 75px 20px 75px; }
+      #img-container .img-container_block .img-container_wrapper .profile-icon {
+        color: #e5ae47;
+        background: #ffffff;
+        border-style: solid;
+        border-color: #e0e0e0;
+        border-width: 1px;
+        height: 130px;
+        width: 130px;
+        line-height: 80px;
+        border-radius: 500px;
+        font-size: 32px;
+        display: inline-block;
+        margin-top: 50px; }
+      #img-container .img-container_block .img-container_wrapper .heading-line {
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e5ae47;
+        width: 125px;
+        margin: 0 auto;
+        display: block; }
+      #img-container .img-container_block .img-container_wrapper .profile-info {
+        color: white;
+        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 70px; }
+
+.profile-name {
+  font-size: 115px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0; }
 
 * {
   box-sizing: border-box; }
