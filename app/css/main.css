@@ -80,6 +80,7 @@ main {
   background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center center;
   width: 100%;
   height: 700px;
   justify-content: center; }
@@ -229,6 +230,7 @@ main {
     padding-bottom: 50px;
     display: flex;
     flex-direction: row;
+    flex-flow: row wrap;
     justify-content: center; }
     #service-info .service-info_container .service-info_block {
       width: 400px;
@@ -254,13 +256,74 @@ main {
           height: auto;
           width: auto;
           padding-top: 14px; }
-      #service-info .service-info_container .service-info_block .heading-line {
+      #service-info .service-info_container .service-info_block .heading-line_numbers {
         border-style: solid;
         border-bottom-width: 1px;
         border-color: #e5ae47;
         width: 50px;
         margin: 0 auto;
         display: block; }
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.8s, transform 0.8s; }
+  .reveal_visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
+
+#service-numbers {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-top: 100px; }
+  #service-numbers .service-numbers_container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: row wrap; }
+    #service-numbers .service-numbers_container .service-numbers_block {
+      width: 400px;
+      height: auto;
+      text-align: center; }
+      #service-numbers .service-numbers_container .service-numbers_block .timer {
+        font-size: 55px;
+        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        color: #7a7a7a;
+        margin: 0;
+        padding: 0; }
+      #service-numbers .service-numbers_container .service-numbers_block .icon-container_numbers {
+        border-width: 1px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        font-size: 32px;
+        display: inline-block; }
+        #service-numbers .service-numbers_container .service-numbers_block .icon-container_numbers .service-icon_numbers {
+          height: auto;
+          width: auto;
+          padding-top: 14px; }
+      #service-numbers .service-numbers_container .service-numbers_block .heading-line_numbers {
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e4e4e4;
+        width: 50px;
+        margin: 0 auto;
+        display: block; }
+
+.timer-word {
+  color: #3e3e3e;
+  font-size: 16px; }
+
+.reveal {
+  opacity: 0;
+  transform: translate3d(0, 100px, 0);
+  transition: opacity 0.8s, transform 0.8s; }
+  .reveal_visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0); }
 
 body {
   padding: 0;
