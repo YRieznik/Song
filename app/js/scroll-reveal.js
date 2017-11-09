@@ -31,7 +31,7 @@ function reveal() {
     }
 
 
-    if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
+    // if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
 }
 
 $(scroll);

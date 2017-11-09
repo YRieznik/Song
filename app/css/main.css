@@ -264,14 +264,18 @@ main {
         margin: 0 auto;
         display: block; }
 
+/*
 .reveal {
   opacity: 0;
   transform: translate3d(0, 100px, 0);
-  transition: opacity 0.8s, transform 0.8s; }
-  .reveal_visible {
-    opacity: 1;
-    transform: translate3d(0, 0, 0); }
+  transition: opacity 0.8s, transform 0.8s;
 
+  &_visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+*/
 #service-numbers {
   width: 100%;
   height: auto;
@@ -288,7 +292,8 @@ main {
       width: 400px;
       height: auto;
       text-align: center; }
-      #service-numbers .service-numbers_container .service-numbers_block .timer {
+      #service-numbers .service-numbers_container .service-numbers_block .counter {
+        font-weight: 500;
         font-size: 55px;
         font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
         color: #7a7a7a;
