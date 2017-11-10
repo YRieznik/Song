@@ -84,23 +84,26 @@ main {
   width: 100%;
   height: 700px;
   justify-content: center; }
-  @media screen and (max-width: 1115px) {
+  @media screen and (max-width: 1235px) {
     #img-container .profile-name {
       font-size: 90px; } }
-  @media screen and (max-width: 810px) {
+  @media screen and (max-width: 1052px) {
     #img-container .profile-name {
       font-size: 50px; } }
+  @media screen and (max-width: 700px) {
+    #img-container .profile-name {
+      font-size: 40px; } }
   #img-container .img-container_block {
     background-color: rgba(36, 36, 36, 0.28);
     margin: 0 auto;
     margin-top: 70px;
     margin-bottom: 70px;
-    border-radius: 0.3rem; }
+    border-radius: 0.3rem;
+    width: 80%; }
     #img-container .img-container_block .img-container_wrapper {
       width: auto;
       height: auto;
       text-align: center;
-      max-width: 960px;
       margin: 20px 75px 20px 75px; }
       #img-container .img-container_block .img-container_wrapper .profile-icon {
         color: #e5ae47;
@@ -129,7 +132,7 @@ main {
         font-weight: 400;
         margin-left: 25px;
         margin-right: 25px;
-        margin-top: 70px; }
+        margin-top: 50px; }
 
 .profile-name {
   font-size: 115px;
@@ -256,7 +259,7 @@ main {
           height: auto;
           width: auto;
           padding-top: 14px; }
-      #service-info .service-info_container .service-info_block .heading-line_numbers {
+      #service-info .service-info_container .service-info_block .heading-line {
         border-style: solid;
         border-bottom-width: 1px;
         border-color: #e5ae47;
@@ -264,23 +267,10 @@ main {
         margin: 0 auto;
         display: block; }
 
-/*
-.reveal {
-  opacity: 0;
-  transform: translate3d(0, 100px, 0);
-  transition: opacity 0.8s, transform 0.8s;
-
-  &_visible {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-*/
 #service-numbers {
   width: 100%;
   height: auto;
-  background-color: white;
-  padding-top: 100px; }
+  background-color: white; }
   #service-numbers .service-numbers_container {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -329,6 +319,80 @@ main {
   .reveal_visible {
     opacity: 1;
     transform: translate3d(0, 0, 0); }
+
+#img-portfolio {
+  display: flex;
+  background-image: url("http://wp-royal.com/hyper-x/hecate/wp-content/uploads/2015/07/picjumbo.com_HNCK7802-e1438928084989.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 700px;
+  justify-content: center; }
+  @media screen and (max-width: 1235px) {
+    #img-portfolio .profile-name {
+      font-size: 90px; } }
+  @media screen and (max-width: 1052px) {
+    #img-portfolio .profile-name {
+      font-size: 50px; } }
+  @media screen and (max-width: 700px) {
+    #img-portfolio .profile-name {
+      font-size: 40px; } }
+  #img-portfolio .img-container_block {
+    background-color: rgba(36, 36, 36, 0.28);
+    margin: 0 auto;
+    margin-top: 135px;
+    margin-bottom: 135px;
+    border-radius: 0.3rem;
+    width: 80%;
+    text-align: center; }
+    #img-portfolio .img-container_block .img-container_wrapper {
+      width: auto;
+      height: auto;
+      text-align: center;
+      margin: 20px 75px 20px 75px; }
+      #img-portfolio .img-container_block .img-container_wrapper .icon-container {
+        color: #e5ae47;
+        background: #ffffff;
+        border-style: solid;
+        border-color: #e0e0e0;
+        border-width: 1px;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 500px;
+        font-size: 32px;
+        display: inline-block;
+        margin-top: 50px; }
+        #img-portfolio .img-container_block .img-container_wrapper .icon-container .service-icon {
+          height: auto;
+          width: auto;
+          padding-top: 14px; }
+      #img-portfolio .img-container_block .img-container_wrapper .heading-line {
+        border-style: solid;
+        border-bottom-width: 1px;
+        border-color: #e5ae47;
+        width: 125px;
+        margin: 0 auto;
+        display: block; }
+      #img-portfolio .img-container_block .img-container_wrapper .profile-info {
+        color: white;
+        font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 35px; }
+
+.profile-name {
+  font-size: 115px;
+  font-family: "Lato", Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px; }
 
 body {
   padding: 0;

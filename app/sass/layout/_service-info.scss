@@ -37,7 +37,7 @@
           padding-top: 14px;
         }
       }
-      .heading-line_numbers {
+      .heading-line {
         border-style: solid;
         border-bottom-width: 1px;
         border-color: rgb(229, 174, 71);
@@ -48,15 +48,3 @@
     }
   }
 }
-/*
-.reveal {
-  opacity: 0;
-  transform: translate3d(0, 100px, 0);
-  transition: opacity 0.8s, transform 0.8s;
-
-  &_visible {
-    opacity: 1;
-    transform: translate3d(0, 0, 0);
-  }
-}
-*/

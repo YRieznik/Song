@@ -31,12 +31,12 @@ function reveal() {
     }
 
 
-    // if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
+    if ($('.reveal_pending').length >= 1) rafId = requestAnimationFrame(reveal);
 }
 
 $(scroll);
 $(window).scroll(scroll);
-$(window).click(function() {
+$(window)(function() {
     $('.reveal').removeClass('reveal_visible').removeClass('reveal_pending');
     lTime = performance.now() + 500;
     var top = $(window).scrollTop();
